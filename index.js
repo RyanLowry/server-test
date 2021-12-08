@@ -5,7 +5,6 @@ var cors = require('cors')
 
 var path = require('path');
 const events = require('./events');
-const cfg = require('./config')
 
 var connection = mysql.createConnection(process.env.JAWSDB_URL);
 
